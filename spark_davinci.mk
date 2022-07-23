@@ -24,4 +24,5 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_SUPPORTS_QUICK_TAP := true
-
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.disable_rescue=true
