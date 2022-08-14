@@ -21,4 +21,10 @@
 
     <!-- Recognizing fingerprint animation -->
     <dimen name="udfps_animation_offset">40dp</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">36px</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">36px</dimen>
 </resources>
