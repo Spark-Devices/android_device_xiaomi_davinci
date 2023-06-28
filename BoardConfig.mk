@@ -23,7 +23,7 @@ BOARD_USES_ALSA_AUDIO := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/davinci.config
+TARGET_KERNEL_CONFIG := davinci_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
